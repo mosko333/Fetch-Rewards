@@ -8,8 +8,8 @@
 import Foundation
 
 extension URLSession {
-    func dataTask(with url: URL, result: @escaping (Result<(URLResponse, Data), Error>) -> Void) -> URLSessionDataTask {
-        
+    func dataTask(with url: URL, result: @escaping (Result<(Data, URLResponse), Error>) -> Void) -> URLSessionDataTask {
+
         return dataTask(with: url) { (data, response, error) in
             if let error = error {
                 result(.failure(error))
@@ -20,7 +20,7 @@ extension URLSession {
                 result(.failure(error))
                 return
             }
-            result(.success((response, data)))
+            result(.success((data, response)))
         }
     }
 }
