@@ -95,11 +95,14 @@
 		7ED5981C253F584C00C535A3 /* Fetch Rewards */ = {
 			isa = PBXGroup;
 			children = (
+				7ED598A1253F634300C535A3 /* Services */,
+				7ED598A0253F633000C535A3 /* ViewControllers */,
+				7ED5989F253F632700C535A3 /* Views */,
+				7ED5989E253F631F00C535A3 /* Models */,
 				7ED5981D253F584C00C535A3 /* Fetch_RewardsApp.swift */,
 				7ED5981F253F584C00C535A3 /* ContentView.swift */,
-				7ED59821253F584D00C535A3 /* Assets.xcassets */,
+				7ED5989A253F626800C535A3 /* Support */,
 				7ED59826253F584D00C535A3 /* Info.plist */,
-				7ED59823253F584D00C535A3 /* Preview Content */,
 			);
 			path = "Fetch Rewards";
 			sourceTree = "<group>";
@@ -128,6 +131,43 @@
 				7ED5983C253F584D00C535A3 /* Info.plist */,
 			);
 			path = "Fetch RewardsUITests";
+			sourceTree = "<group>";
+		};
+		7ED5989A253F626800C535A3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7ED59821253F584D00C535A3 /* Assets.xcassets */,
+				7ED59823253F584D00C535A3 /* Preview Content */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		7ED5989E253F631F00C535A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7ED5989F253F632700C535A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7ED598A0253F633000C535A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7ED598A1253F634300C535A3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
