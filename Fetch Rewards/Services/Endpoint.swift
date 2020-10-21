@@ -10,7 +10,7 @@ import Foundation
 struct Endpoint {
     private static let scheme = "https"
     private static let host = "fetch-hiring.s3.amazonaws.com"
-    private static let path = "hiring.json"
+    private static let path = "/hiring.json"
 
     static var url: URL? {
         var components = URLComponents()
